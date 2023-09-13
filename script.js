@@ -5,6 +5,7 @@ const suntractButton = document.getElementById("subtract");
 const multiplyButton = document.getElementById("multiply");
 const divideButton = document.getElementById("divide");
 const resultDisplay = document.getElementById("result");
+const resetButton = document.getElementById("reset");
 
 //Call back function for addition
 function add(a, b) {
@@ -71,4 +72,11 @@ divideButton.addEventListener("click", function () {
   } else {
     resultDisplay.textContent = "Please Enter a valid number";
   }
+});
+
+//addEventLitsener for reset button
+resetButton.addEventListener("click", function () {
+  num1Input.value = "";
+  num2Input.value = "";
+  resultDisplay.textContent = "You result will appear here.";
 });
