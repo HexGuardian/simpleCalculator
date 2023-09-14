@@ -21,6 +21,11 @@ input {
   margin: 0.5rem auto;
   width: 50%;
 }
+.buttonBody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 /* button */
 button {
