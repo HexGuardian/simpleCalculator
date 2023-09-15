@@ -14,7 +14,7 @@
   align-content: space-around;
   padding: 2rem 1rem;
   margin: auto;
-  width: 250px;
+  width: 300px;
   border: 2px solid black;
 }
 input {
@@ -23,7 +23,7 @@ input {
 }
 .buttonBody {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -37,7 +37,7 @@ button {
   padding: 10px 15px;
   text-align: center;
   transition: 200ms;
-  width: 50%;
+  width: 45%;
   box-sizing: border-box;
   border: 0;
   font-size: 16px;
